@@ -1,0 +1,2687 @@
+body {
+  overflow-x: hidden;
+}
+/*Header*/
+#header {
+  width: 100%;
+  position: absolute;
+  background-color: #648cff;
+  height: 80px;
+  display: block;
+  z-index: 200;
+}
+#header .logo {
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 80px;
+  text-align: left;
+  margin: 0;
+}
+#header .menu .items {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header .menu .items .item1 a,
+#header .menu .items .item2 a,
+#header .menu .items .item3 a,
+#header .menu .items .item4 a {
+  color: #fff;
+  text-decoration: none;
+}
+#header .links .socials {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+#header .links .socials a {
+  color: #fff;
+}
+/*Main*/
+#main {
+  width: 100%;
+  height: 960px;
+  background-color: #648cff;
+  border-bottom-left-radius: 50% 4%;
+  border-bottom-right-radius: 50% 4%;
+  background-image: url(../img/Wave-1.png), url(../img/Wave-2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+#main .description .main-info {
+  margin-top: 60%;
+  color: #fff;
+}
+#main .description .main-info h1 {
+  font-size: 56px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+#main .description .main-info p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 4%;
+  line-height: 1.6;
+}
+#main .description .main-info .download {
+  margin-top: 6%;
+  padding: 10px;
+  width: 160px;
+  background-color: #fc6a42;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+}
+#main .description .main-info .features {
+  margin-left: 2%;
+  margin-top: 6%;
+  padding: 10px;
+  width: 160px;
+  background-color: #4466c9;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+}
+#main .circles-info {
+  display: flex;
+  margin-top: 80px;
+  height: 880px;
+  background-image: url(../img/main-phone.png);
+  background-repeat: no-repeat;
+  background-position: 50% 41%;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+#main .circles-info .sunny {
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #fc6a42;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  vertical-align: middle;
+  text-align: center;
+  transform: translateX(-80%) translateY(-30%);
+}
+#main .circles-info .london {
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #4466c9;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  vertical-align: middle;
+  text-align: center;
+  transform: translateX(100%) translateY(-80%);
+}
+#main button.bot {
+  left: 50%;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-size: 26px;
+  border: none;
+  background-color: #fff;
+  color: #ff5459;
+  transform: translateX(-50%) translateY(-200%);
+}
+/*Features*/
+#features {
+  height: 600px;
+  position: relative;
+}
+#features .perfect h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 13%;
+}
+#features .perfect p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999999;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+#features .description-1 img {
+  float: left;
+  margin-right: 20px ;
+  margin-bottom: 50px;
+}
+#features .description-1 h1 {
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+}
+#features .description-1 p {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #aeaeae;
+}
+#features .description-2 img {
+  float: left;
+  margin-right: 20px ;
+  margin-bottom: 50px;
+}
+#features .description-2 h1 {
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+}
+#features .description-2 p {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #aeaeae;
+}
+#features .description-3 img {
+  float: left;
+  margin-right: 20px ;
+  margin-bottom: 50px;
+}
+#features .description-3 h1 {
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+}
+#features .description-3 p {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #aeaeae;
+}
+/*Widgets*/
+#widgets {
+  height: 900px;
+  display: block;
+}
+#widgets .simple h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+}
+#widgets .simple p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999999;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+#widgets .slick-slider {
+  width: 100%;
+  outline: none;
+  text-align: center;
+}
+#widgets .slick-slider img {
+  box-shadow: 1px 1px 10px;
+  margin: 5px;
+  outline: none;
+}
+/*Screenshot*/
+#screenshots .phones .screen h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5%;
+}
+#screenshots .phones .screen p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999999;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+#screenshots .phones .first .phone-1 {
+  display: flex;
+  height: 680px;
+  background-image: url(../img/phone-1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#screenshots .phones .first .phone-1 .cloudy {
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #fcec64;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(30%) translateY(-90%);
+}
+#screenshots .phones .first .phone-1 .deg {
+  display: block;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #648cff;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(-60%) translateY(140%);
+}
+#screenshots .phones .first .when-1 {
+  margin-top: 36%;
+}
+#screenshots .phones .first .when-1 h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+#screenshots .phones .first .when-1 p {
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+#screenshots .phones .first .when-1 span {
+  position: relative;
+  font-size: 16px;
+  border-radius: 30px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0 10px;
+  color: #c3cfe5;
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff;
+}
+#screenshots .phones .first .when-1 .item-1a {
+  z-index: 100;
+}
+#screenshots .phones .first .when-1 .item-2a {
+  transform: translateX(-20%);
+  z-index: 80;
+}
+#screenshots .phones .first .when-1 .item-3a {
+  transform: translateX(-40%);
+  z-index: 60;
+}
+#screenshots .phones .second {
+  margin-top: 10%;
+}
+#screenshots .phones .second .when-2 {
+  margin-top: 30%;
+}
+#screenshots .phones .second .when-2 h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+#screenshots .phones .second .when-2 p {
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+#screenshots .phones .second .when-2 span {
+  position: relative;
+  font-size: 16px;
+  border-radius: 30px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0 10px;
+  color: #c3cfe5;
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff;
+}
+#screenshots .phones .second .when-2 .item-1a {
+  z-index: 100;
+}
+#screenshots .phones .second .when-2 .item-2a {
+  transform: translateX(-20%);
+  z-index: 80;
+}
+#screenshots .phones .second .when-2 .item-3a {
+  transform: translateX(-40%);
+  z-index: 60;
+}
+#screenshots .phones .second .phone-2 {
+  display: flex;
+  height: 680px;
+  background-image: url(../img/phone-2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#screenshots .phones .second .phone-2 .sunny {
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #f2a14e;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(50%) translateY(-130%);
+}
+#screenshots .phones .second .phone-2 .deg {
+  display: block;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #fc6a42;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(-50%) translateY(140%);
+}
+#screenshots .phones .third {
+  margin-top: 10%;
+}
+#screenshots .phones .third .phone-3 {
+  display: flex;
+  height: 680px;
+  background-image: url(../img/phone-3.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#screenshots .phones .third .phone-3 .cloudy {
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #b8faee;
+  color: #7e8c91;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(30%) translateY(-90%);
+}
+#screenshots .phones .third .phone-3 .deg {
+  display: block;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  background-color: #7693c8;
+  color: #fff;
+  border-radius: 50px;
+  line-height: 90px;
+  text-align: center;
+  transform: translateX(-60%) translateY(140%);
+}
+#screenshots .phones .third .when-3 {
+  margin-top: 36%;
+}
+#screenshots .phones .third .when-3 h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+#screenshots .phones .third .when-3 p {
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+#screenshots .phones .third .when-3 span {
+  position: relative;
+  font-size: 16px;
+  border-radius: 30px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0 0 10px;
+  color: #c3cfe5;
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff;
+}
+#screenshots .phones .third .when-3 .item-1a {
+  z-index: 100;
+}
+#screenshots .phones .third .when-3 .item-2a {
+  transform: translateX(-20%);
+  z-index: 80;
+}
+#screenshots .phones .third .when-3 .item-3a {
+  transform: translateX(-40%);
+  z-index: 60;
+}
+/*Saying*/
+#saying .title h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10%;
+}
+#saying .title p {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999999;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+#saying .phrases .top h2 {
+  display: block;
+  margin: 0;
+  line-height: 30px;
+  font-size: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#saying .phrases p {
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353854;
+  margin: 0;
+}
+#saying .phrases h3 {
+  font-size: 16px;
+}
+#saying .phrases .bottom h2 {
+  display: block;
+  margin: 0;
+  line-height: 0px;
+  font-size: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #648cff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+}
+#saying .phrase-1,
+#saying .phrase-2,
+#saying .phrase-3,
+#saying .phrase-4 {
+  margin-top: 8%;
+  margin-bottom: 20%;
+}
+/*Download*/
+#download {
+  margin-top: 5%;
+  height: 460px;
+  background-color: #648cff;
+}
+#download .title .description h1 {
+  font-size: 36px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20%;
+}
+#download .title .description p {
+  width: 370px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+#download .title .phones .phone-1 {
+  width: 1000px;
+  height: 460px;
+  background: url(../img/download-1.png) 30% -40% no-repeat, url(../img/download-3.png) 0% -70% no-repeat, url(../img/download-2.png) 60% -70% no-repeat;
+  z-index: 100;
+}
+/*footer*/
+#footer {
+  position: relative;
+  height: 370px;
+  width: 100%;
+  background-color: #353854;
+  display: block;
+  z-index: 0;
+}
+#footer .logo {
+  color: #fc6a42;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 220px;
+  text-align: left;
+  margin: 0;
+}
+#footer .logo span {
+  color: #648cff;
+}
+#footer .menu .items {
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+#footer .menu .items .item1 a,
+#footer .menu .items .item2 a,
+#footer .menu .items .item3 a,
+#footer .menu .items .item4 a {
+  color: #b5b5c8;
+  text-decoration: none;
+}
+#footer .menu .items .item1:hover a,
+#footer .menu .items .item2:hover a,
+#footer .menu .items .item3:hover a,
+#footer .menu .items .item4:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+#footer .links {
+  margin: 0;
+}
+#footer .links .socials {
+  height: 220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+#footer .links .socials a {
+  color: #b5b5c8;
+}
+#footer .line span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #4e527a;
+  z-index: 500;
+}
+#footer .rights .info h4 {
+  color: #4e527a;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding-top: 50px;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  /*Header*/
+  #header {
+    width: 100%;
+    position: fixed;
+    background-color: #648cff;
+    height: 60px;
+    display: block;
+    z-index: 200;
+  }
+  #header .logo {
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  #header .logo span {
+    height: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #header .menu .items {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+  #header .menu .items .item1 a,
+  #header .menu .items .item2 a,
+  #header .menu .items .item3 a,
+  #header .menu .items .item4 a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #header .links .socials {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+  }
+  #header .links .socials a {
+    color: #fff;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  /*Main*/
+  #main {
+    width: 100%;
+    height: 660px;
+    background-color: #648cff;
+    border-bottom-left-radius: 50% 4%;
+    border-bottom-right-radius: 50% 4%;
+    background-image: url(../img/Wave-1.png), url(../img/Wave-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  #main .description .main-info {
+    margin-top: 60%;
+    color: #fff;
+  }
+  #main .description .main-info h1 {
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  #main .description .main-info p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 4%;
+    line-height: 1.6;
+  }
+  #main .description .main-info .download {
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #fc6a42;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .description .main-info .features {
+    margin-left: 0;
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #4466c9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .circles-info {
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-image: url(../img/main-phone.png);
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  #main .circles-info .sunny {
+    display: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(-50%) translateY(-30%);
+  }
+  #main .circles-info .london {
+    display: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #4466c9;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(120%) translateY(-150%);
+  }
+  #main button.bot {
+    left: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 26px;
+    border: none;
+    background-color: #fff;
+    color: #ff5459;
+    transform: translateX(-50%) translateY(-150%);
+  }
+  /*Features*/
+  #features {
+    height: 400px;
+    position: relative;
+  }
+  #features .perfect h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+  }
+  #features .perfect p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #features .description-1 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-1 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-1 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-2 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-2 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-2 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-3 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-3 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-3 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  /*Screenshot*/
+  #screenshots .phones .screen h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #screenshots .phones .screen p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  #screenshots .phones .first .phone-1 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .first .phone-1 .cloudy {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fcec64;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(60%) translateY(-90%);
+  }
+  #screenshots .phones .first .phone-1 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #648cff;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .first .when-1 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .first .when-1 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .first .when-1 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .first .when-1 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .first .when-1 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .first .when-1 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .first .when-1 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second {
+    margin-top: 0%;
+  }
+  #screenshots .phones .second .when-2 {
+    margin-top: 50%;
+  }
+  #screenshots .phones .second .when-2 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .second .when-2 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .second .when-2 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .second .when-2 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .second .when-2 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .second .when-2 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second .phone-2 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .second .phone-2 .sunny {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #f2a14e;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(80%) translateY(-130%);
+  }
+  #screenshots .phones .second .phone-2 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-80%) translateY(140%);
+  }
+  #screenshots .phones .third {
+    margin-top: 0%;
+  }
+  #screenshots .phones .third .phone-3 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .third .phone-3 .cloudy {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #b8faee;
+    color: #7e8c91;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(30%) translateY(-90%);
+  }
+  #screenshots .phones .third .phone-3 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #7693c8;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .third .when-3 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .third .when-3 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .third .when-3 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .third .when-3 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .third .when-3 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .third .when-3 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .third .when-3 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  /*Widgets*/
+  #widgets {
+    height: 900px;
+    display: block;
+  }
+  #widgets .simple h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #widgets .simple p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #widgets .slick-slider {
+    width: 100%;
+    outline: none;
+    text-align: center;
+  }
+  #widgets .slick-slider img {
+    box-shadow: 1px 1px 10px;
+    margin: 5px;
+    outline: none;
+  }
+  /*Saying*/
+  #saying .title h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+  }
+  #saying .title p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #saying .phrases .top h2 {
+    display: block;
+    margin: 0;
+    line-height: 30px;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #saying .phrases p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin: 0;
+  }
+  #saying .phrases h3 {
+    font-size: 12px;
+  }
+  #saying .phrases .bottom h2 {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+  }
+  #saying .phrase-1,
+  #saying .phrase-2,
+  #saying .phrase-3,
+  #saying .phrase-4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+/*xs*/
+@media (min-width: 481px) and (max-width: 767px) {
+  /*Header*/
+  #header {
+    width: 100%;
+    position: absolute;
+    background-color: #648cff;
+    height: 60px;
+    display: block;
+    z-index: 200;
+  }
+  #header .logo {
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  #header .logo span {
+    height: 60px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #header .menu .items {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+  #header .menu .items .item1 a,
+  #header .menu .items .item2 a,
+  #header .menu .items .item3 a,
+  #header .menu .items .item4 a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #header .links .socials {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+  }
+  #header .links .socials a {
+    color: #fff;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  /*Main*/
+  #main {
+    width: 100%;
+    height: 660px;
+    background-color: #648cff;
+    border-bottom-left-radius: 50% 4%;
+    border-bottom-right-radius: 50% 4%;
+    background-image: url(../img/Wave-1.png), url(../img/Wave-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  #main .description .main-info {
+    margin-top: 60%;
+    color: #fff;
+  }
+  #main .description .main-info h1 {
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  #main .description .main-info p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 4%;
+    line-height: 1.6;
+  }
+  #main .description .main-info .download {
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #fc6a42;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .description .main-info .features {
+    margin-left: 0;
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #4466c9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .circles-info {
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-image: url(../img/main-phone.png);
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  #main .circles-info .sunny {
+    display: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(-50%) translateY(-30%);
+  }
+  #main .circles-info .london {
+    display: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #4466c9;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(120%) translateY(-150%);
+  }
+  #main button.bot {
+    left: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 26px;
+    border: none;
+    background-color: #fff;
+    color: #ff5459;
+    transform: translateX(-50%) translateY(-150%);
+  }
+  /*Features*/
+  #features {
+    height: 400px;
+    position: relative;
+  }
+  #features .perfect h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+  }
+  #features .perfect p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #features .description-1 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-1 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-1 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-2 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-2 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-2 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-3 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 0px;
+  }
+  #features .description-3 h1 {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-3 p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  /*Screenshot*/
+  #screenshots .phones .screen h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #screenshots .phones .screen p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  #screenshots .phones .first .phone-1 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .first .phone-1 .cloudy {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fcec64;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(60%) translateY(-90%);
+  }
+  #screenshots .phones .first .phone-1 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #648cff;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .first .when-1 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .first .when-1 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .first .when-1 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .first .when-1 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .first .when-1 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .first .when-1 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .first .when-1 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second {
+    margin-top: 0%;
+  }
+  #screenshots .phones .second .when-2 {
+    margin-top: 50%;
+  }
+  #screenshots .phones .second .when-2 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .second .when-2 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .second .when-2 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .second .when-2 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .second .when-2 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .second .when-2 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second .phone-2 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .second .phone-2 .sunny {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #f2a14e;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(80%) translateY(-130%);
+  }
+  #screenshots .phones .second .phone-2 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-80%) translateY(140%);
+  }
+  #screenshots .phones .third {
+    margin-top: 0%;
+  }
+  #screenshots .phones .third .phone-3 {
+    display: flex;
+    height: 580px;
+    background-image: url(../img/phone-3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .third .phone-3 .cloudy {
+    display: none;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #b8faee;
+    color: #7e8c91;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(30%) translateY(-90%);
+  }
+  #screenshots .phones .third .phone-3 .deg {
+    display: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #7693c8;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .third .when-3 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .third .when-3 h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .third .when-3 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .third .when-3 span {
+    position: relative;
+    font-size: 12px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .third .when-3 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .third .when-3 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .third .when-3 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  /*Widgets*/
+  #widgets {
+    height: 800px;
+    display: block;
+  }
+  #widgets .simple h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #widgets .simple p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #widgets .slick-slider {
+    width: 100%;
+    outline: none;
+    text-align: center;
+  }
+  #widgets .slick-slider img {
+    box-shadow: 1px 1px 10px;
+    margin: 5px;
+    outline: none;
+  }
+  /*Saying*/
+  #saying .title h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+  }
+  #saying .title p {
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #saying .phrases .top h2 {
+    display: block;
+    margin: 0;
+    line-height: 30px;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #saying .phrases p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin: 0;
+  }
+  #saying .phrases h3 {
+    font-size: 12px;
+  }
+  #saying .phrases .bottom h2 {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+  }
+  #saying .phrase-1,
+  #saying .phrase-2,
+  #saying .phrase-3,
+  #saying .phrase-4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  /*Download*/
+  #download {
+    margin-top: 5%;
+    height: 350px;
+    background-color: #648cff;
+  }
+  #download .title .description h1 {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20%;
+  }
+  #download .title .description p {
+    width: 200px;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-top: 8%;
+    margin-bottom: 6%;
+  }
+  #download .title .description img {
+    margin-bottom: 5%;
+  }
+  #download .title .phones .phone-1 {
+    width: 1000px;
+    height: 350px;
+    background: url(../img/download-1.png) 20% -20% no-repeat, url(../img/download-3.png) 0% -50% no-repeat, url(../img/download-2.png) 60% -50% no-repeat;
+    z-index: 100;
+  }
+  /*footer*/
+  #footer {
+    height: 270px;
+    width: 100%;
+    background-color: #353854;
+    display: block;
+    z-index: 0;
+    line-height: 1;
+  }
+  #footer .logo {
+    color: #fc6a42;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 150px;
+    text-align: left;
+    margin: 0;
+  }
+  #footer .logo span {
+    color: #648cff;
+  }
+  #footer .menu .items {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+  #footer .menu .items .item1 a,
+  #footer .menu .items .item2 a,
+  #footer .menu .items .item3 a,
+  #footer .menu .items .item4 a {
+    color: #b5b5c8;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #footer .menu .items .item1:hover a,
+  #footer .menu .items .item2:hover a,
+  #footer .menu .items .item3:hover a,
+  #footer .menu .items .item4:hover a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #footer .links {
+    margin: 0;
+  }
+  #footer .links .socials {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }
+  #footer .links .socials a {
+    color: #b5b5c8;
+  }
+  #footer .line span {
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #4e527a;
+    z-index: 500;
+  }
+  #footer .rights .info h4 {
+    color: #4e527a;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding-top: 50px;
+  }
+}
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Header*/
+  #header {
+    width: 100%;
+    position: absolute;
+    background-color: #648cff;
+    height: 80px;
+    display: block;
+    z-index: 200;
+  }
+  #header .logo {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 80px;
+    text-align: left;
+    margin: 0;
+  }
+  #header .menu .items {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+  #header .menu .items .item1 a,
+  #header .menu .items .item2 a,
+  #header .menu .items .item3 a,
+  #header .menu .items .item4 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #header .links .socials {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+  }
+  #header .links .socials a {
+    color: #fff;
+  }
+  /*Main*/
+  #main {
+    width: 100%;
+    height: 900px;
+    background-color: #648cff;
+    border-bottom-left-radius: 50% 4%;
+    border-bottom-right-radius: 50% 4%;
+    background-image: url(../img/Wave-1.png), url(../img/Wave-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  #main .description .main-info {
+    margin-top: 60%;
+    color: #fff;
+  }
+  #main .description .main-info h1 {
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  #main .description .main-info p {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 4%;
+    line-height: 1.6;
+  }
+  #main .description .main-info .download {
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #fc6a42;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .description .main-info .features {
+    margin-left: 0;
+    margin-top: 6%;
+    padding: 10px;
+    width: 100%;
+    background-color: #4466c9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+  }
+  #main .circles-info {
+    display: flex;
+    height: 820px;
+    width: 100%;
+    background-image: url(../img/main-phone.png);
+    background-repeat: no-repeat;
+    background-position: 70% 20%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  #main .circles-info .sunny {
+    display: block;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(-50%) translateY(-30%);
+  }
+  #main .circles-info .london {
+    display: block;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #4466c9;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateX(120%) translateY(-150%);
+  }
+  /*Features*/
+  #features {
+    height: 550px;
+    position: relative;
+  }
+  #features .perfect h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
+  }
+  #features .perfect p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #features .description-1 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 10px;
+  }
+  #features .description-1 h1 {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-1 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-2 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 10px;
+  }
+  #features .description-2 h1 {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-2 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  #features .description-3 img {
+    width: 20%;
+    float: left;
+    margin-right: 15px ;
+    margin-bottom: 10px;
+  }
+  #features .description-3 h1 {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+  }
+  #features .description-3 p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #aeaeae;
+  }
+  /*Screenshot*/
+  #screenshots .phones .screen h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #screenshots .phones .screen p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  #screenshots .phones .first .phone-1 {
+    display: flex;
+    height: 680px;
+    background-image: url(../img/phone-1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .first .phone-1 .cloudy {
+    display: block;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fcec64;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(60%) translateY(-90%);
+  }
+  #screenshots .phones .first .phone-1 .deg {
+    display: block;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #648cff;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .first .when-1 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .first .when-1 h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .first .when-1 p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .first .when-1 span {
+    position: relative;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .first .when-1 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .first .when-1 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .first .when-1 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second {
+    margin-top: 0%;
+  }
+  #screenshots .phones .second .when-2 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .second .when-2 h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .second .when-2 p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .second .when-2 span {
+    position: relative;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .second .when-2 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .second .when-2 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .second .when-2 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  #screenshots .phones .second .phone-2 {
+    display: flex;
+    height: 680px;
+    background-image: url(../img/phone-2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .second .phone-2 .sunny {
+    display: block;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #f2a14e;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(80%) translateY(-130%);
+  }
+  #screenshots .phones .second .phone-2 .deg {
+    display: block;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #fc6a42;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-80%) translateY(140%);
+  }
+  #screenshots .phones .third {
+    margin-top: 0%;
+  }
+  #screenshots .phones .third .phone-3 {
+    display: flex;
+    height: 680px;
+    background-image: url(../img/phone-3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80% 80%;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  #screenshots .phones .third .phone-3 .cloudy {
+    display: block;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #b8faee;
+    color: #7e8c91;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(30%) translateY(-90%);
+  }
+  #screenshots .phones .third .phone-3 .deg {
+    display: block;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: #7693c8;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 70px;
+    text-align: center;
+    transform: translateX(-60%) translateY(140%);
+  }
+  #screenshots .phones .third .when-3 {
+    margin-top: 60%;
+  }
+  #screenshots .phones .third .when-3 h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10%;
+  }
+  #screenshots .phones .third .when-3 p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  #screenshots .phones .third .when-3 span {
+    position: relative;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 10px;
+    color: #c3cfe5;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+  }
+  #screenshots .phones .third .when-3 .item-1a {
+    z-index: 100;
+  }
+  #screenshots .phones .third .when-3 .item-2a {
+    transform: translateX(-20%);
+    z-index: 80;
+  }
+  #screenshots .phones .third .when-3 .item-3a {
+    transform: translateX(-40%);
+    z-index: 60;
+  }
+  /*Widgets*/
+  #widgets {
+    height: 800px;
+    display: block;
+  }
+  #widgets .simple h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3%;
+  }
+  #widgets .simple p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #widgets .slick-slider {
+    width: 100%;
+    outline: none;
+    text-align: center;
+  }
+  #widgets .slick-slider img {
+    box-shadow: 1px 1px 10px;
+    margin: 5px;
+    outline: none;
+  }
+  /*Saying*/
+  #saying .title h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10%;
+  }
+  #saying .title p {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 8%;
+  }
+  #saying .phrases .top h2 {
+    display: block;
+    margin: 0;
+    line-height: 30px;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #saying .phrases p {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #353854;
+    margin: 0;
+  }
+  #saying .phrases h3 {
+    font-size: 14px;
+  }
+  #saying .phrases .bottom h2 {
+    display: block;
+    margin: 0;
+    line-height: 0px;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #648cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+  }
+  #saying .phrase-1,
+  #saying .phrase-2,
+  #saying .phrase-3,
+  #saying .phrase-4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  /*Download*/
+  #download {
+    margin-top: 5%;
+    height: 380px;
+    background-color: #648cff;
+  }
+  #download .title .description h1 {
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20%;
+  }
+  #download .title .description p {
+    width: 370px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-top: 8%;
+    margin-bottom: 6%;
+  }
+  #download .title .phones .phone-1 {
+    width: 1000px;
+    height: 380px;
+    background: url(../img/download-1.png) 30% -20% no-repeat, url(../img/download-3.png) 0% -50% no-repeat, url(../img/download-2.png) 60% -50% no-repeat;
+    z-index: 100;
+  }
+  /*footer*/
+  #footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #353854;
+    display: block;
+    z-index: 0;
+  }
+  #footer .logo {
+    color: #fc6a42;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 180px;
+    text-align: left;
+    margin: 0;
+  }
+  #footer .logo span {
+    color: #648cff;
+  }
+  #footer .menu .items {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+  #footer .menu .items .item1 a,
+  #footer .menu .items .item2 a,
+  #footer .menu .items .item3 a,
+  #footer .menu .items .item4 a {
+    color: #b5b5c8;
+    text-decoration: none;
+  }
+  #footer .menu .items .item1:hover a,
+  #footer .menu .items .item2:hover a,
+  #footer .menu .items .item3:hover a,
+  #footer .menu .items .item4:hover a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer .links {
+    margin: 0;
+  }
+  #footer .links .socials {
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+  }
+  #footer .links .socials a {
+    color: #b5b5c8;
+  }
+  #footer .line span {
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #4e527a;
+    z-index: 500;
+  }
+  #footer .rights .info h4 {
+    color: #4e527a;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding-top: 50px;
+  }
+}
+/*md*/
+/*lg*/
